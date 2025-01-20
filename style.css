@@ -312,3 +312,23 @@ body {
   left: 1370px;
   overflow: hidden;
 }
+.name {
+  width: 1000px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 600px;
+  left: 1000px;
+  font-family: Gmarket Sans TTF;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+a {
+  cursor: pointer;
+}
+
+/* Ensure images inside links also have the pointer cursor */
+a img {
+  cursor: pointer;
+}
