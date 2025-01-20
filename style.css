@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+}
+.v97_38 {
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v97_35 {
+  width: 100%;
+  height: 100%;
+  background: url("img/v97_35.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v56_11 {
+  width: 100px;
+  color: rgb(170, 139, 94);
+  position: absolute;
+  top: 50px;
+  left: 1580px;
+  font-family: Gmarket Sans TTF;
+  font-weight: Medium;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.v97_6{
+  width: 191px;
+  height: 188px;
+  background: url("img/v97_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 750px;
+  left: 200px;
+  overflow: hidden;
+}
+.v97_9{
+  width: 250px;
+  height: 170px;
+  background: url("img/v97_9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 790px;
+  left: 450px;
+  overflow: hidden;
+}
+.v97_12{
+  width: 241px;
+  height: 243px;
+  background: url("img/v97_12.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 750px;
+  left: 780px;
+  overflow: hidden;
+}
+.v97_15{
+  width: 161px;
+  height: 162px;
+  background: url("img/v97_15.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 345px;
+  left: 1408px;
+  overflow: hidden;
+}
+.v97_18{
+  width: 215px;
+  height: 200px;
+  background: url("img/v97_18.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 61px;
+  left: 1144px;
+  overflow: hidden;
+}
+.v97_21{
+  width: 205px;
+  height: 180px;
+  background: url("img/v97_21.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 90px;
+  left: 350px;
+  overflow: hidden;
+}
+.v97_3{
+  width: 340px;
+  height: 261px;
+  background: url("img/v97_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  overflow: hidden;
+}
+
+.v97_40{
+  width: 488px;
+  height: 488px;
+  background: url("img/v97_40.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  overflow: hidden;
+}
+.v97_44{
+  width: 226px;
+  height: 190px;
+  background: url("img/v97_44.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 780px;
+  left: 1094px;
+  overflow: hidden;
+}
+.v97_48{
+  width: 349px;
+  height: 355px;
+  background: url("img/v97_48.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 650px;
+  left: 1300px;
+  overflow: hidden;
+}
+.v97_49{
+  width: 100%;
+  height: 10%;
+  background: url("img/v97_49.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 592px;
+  left: 0px;
+  overflow: hidden;
+}
+.stopwatch-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* Ensure it appears in front */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #ff0000; /* Red border like Squid Game */
+  padding: 20px;
+  border-radius: 10px;
+  background: radial-gradient(circle, rgba(20,20,20,1) 30%, rgba(0,0,0,1) 80%);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+/* Stopwatch display styling */
+.stopwatch-display {
+  font-size: 50px;  /* Reduced font size */
+  font-weight: bold;
+  color: #ff0000; /* Bright red digits */
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.stopwatch-text {
+  position: absolute;
+  top: 50%;  /* Positioned below the stopwatch */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000; /* White text for visibility */
+  font-family: 'Gmarket Sans TTF', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.v97_50 {
+  width: 25%;
+  height: 25%;
+  background: url("img/v97_50.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  overflow: hidden;
+}
+.v97_51 {
+  width: 25%;
+  height: 25%;
+  background: url("img/v97_51.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  overflow: hidden;
+}
+.v97_52{
+  width: 5%;
+  height: 5%;
+  background: url("img/v97_52.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  overflow: hidden;
+}
+.v97_53 {
+  width: 100%;
+  height: 100%;
+  background: url("img/v97_53.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.soldier1{
+  width: 300px;
+  height: 400px;
+  background: url("img/soldier1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  overflow: hidden;
+}
+.soldier2{
+  width: 300px;
+  height: 400px;
+  background: url("img/soldier2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  left: 1370px;
+  overflow: hidden;
+}
