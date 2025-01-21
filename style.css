@@ -40,6 +40,7 @@ body {
   left: 1580px;
   font-family: Gmarket Sans TTF;
   font-weight: Medium;
+  cursor: pointer;
   font-size: 30px;
   opacity: 1;
   text-align: left;
@@ -235,6 +236,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  cursor: pointer;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -248,6 +250,7 @@ body {
   width: 25%;
   height: 25%;
   background: url("img/v97_51.png");
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -264,6 +267,7 @@ body {
   width: 5%;
   height: 5%;
   background: url("img/v97_52.png");
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
