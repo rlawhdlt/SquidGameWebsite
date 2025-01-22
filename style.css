@@ -58,7 +58,7 @@ body {
   left: 200px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -80,7 +80,7 @@ body {
   left: 450px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -102,7 +102,7 @@ body {
   left: 780px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -124,7 +124,7 @@ body {
   left: 1408px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -146,7 +146,7 @@ body {
   left: 1144px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -168,7 +168,7 @@ body {
   left: 350px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -190,7 +190,7 @@ body {
   left: 100px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -212,7 +212,7 @@ body {
   left: 600px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -234,7 +234,7 @@ body {
   left: 1094px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
@@ -256,7 +256,7 @@ body {
   left: 1300px;
   overflow: hidden;
   transition-property: transform;
-  transition-duration: 1.9s;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
