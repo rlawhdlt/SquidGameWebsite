@@ -122,7 +122,16 @@ body {
   top: 90px;
   left: 350px;
   overflow: hidden;
+  transition-property: transform;
+  transition-duration: 1.8s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
 }
+
+.v97_21:hover{
+  transform: scale(1.5) rotate(360deg) ;
+}
+
 .v97_3{
   width: 340px;
   height: 261px;
