@@ -33,18 +33,38 @@ body {
   overflow: hidden;
 }
 .v56_11 {
-  width: 100px;
-  color: rgb(170, 139, 94);
+  padding: 10px 20px;
+  background-color: rgb(170, 139, 94);
+  color: rgb(0, 0, 0);
+  border: none;
   position: absolute;
   top: 50px;
   left: 1580px;
   font-family: Gmarket Sans TTF;
   font-weight: Medium;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 16px;
   opacity: 1;
   text-align: left;
+  transition-property: background-color, transform, box-shadow;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
 }
+
+.v56_11:hover{
+  transform: translateY(-5px);
+  color: white;
+  background-color: rgb(237, 27, 118);
+  box-shadow: 0 8px 15px black;
+}
+
+.v56_11:active{
+  background-color: white;
+  color: rgb(237, 27, 118);
+  transform: translateY(0);
+  box-shadow: 0 4px 8px black;
+}
+
 .v97_6{
   width: 191px;
   height: 188px;
@@ -54,8 +74,8 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 750px;
-  left: 200px;
+  top: 720px;
+  left: 140px;
   overflow: hidden;
   transition-property: transform;
   transition-duration: 2s;
@@ -178,8 +198,8 @@ body {
 }
 
 .v97_3{
-  width: 340px;
-  height: 261px;
+  width: 300px;
+  height: 200px;
   background: url("img/v97_3.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -200,8 +220,8 @@ body {
 }
 
 .v97_40{
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 263px;
   background: url("img/v97_40.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -211,7 +231,7 @@ body {
   justify-content: center;
   align-items: center;
   top: 50px;
-  left: 740px;
+  left: 735px;
   overflow: hidden;
   transition-property: transform;
   transition-duration: 2s;
@@ -246,16 +266,16 @@ body {
 }
 
 .v97_48{
-  width: 245px;
-  height: 187px;
+  width: 185px;
+  height: 140px;
   background: url("img/v97_48.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 670px;
-  left: 1340px;
+  top: 720px;
+  left: 1380px;
   overflow: hidden;
   transition-property: transform;
   transition-duration: 2s;
@@ -328,14 +348,28 @@ body {
   background-size: cover;
   cursor: pointer;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 37.5%;
+  left: 37.5%;
   justify-content: center;
   align-items: center;
   opacity: 1;
   overflow: hidden;
+  transition-property: transform, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
+
+.v97_50:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px black;
+}
+
+.v97_50:active{
+  transform: translateY(0);
+  box-shadow: 0 4px 8px black;
+}
+
 .v97_51 {
   width: 25%;
   height: 25%;
@@ -345,14 +379,28 @@ body {
   background-position: center center;
   background-size: cover;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 37.5%;
+  left: 37.5%;
   justify-content: center;
   align-items: center;
   opacity: 1;
   overflow: hidden;
+  transition-property: transform, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
+
+.v97_51:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px black;
+}
+
+.v97_51:active{
+  transform: translateY(0);
+  box-shadow: 0 4px 8px black;
+}
+
 .v97_52{
   width: 5%;
   height: 5%;
@@ -421,6 +469,17 @@ body {
   left: 1370px;
   overflow: hidden;
 }
+
+.soldier1:hover, .soldier2:hover {
+  animation: jump 0.5s ease-in-out infinite;
+}
+
+@keyframes jump {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
 .name {
   width: 1000px;
   color: rgb(255, 255, 255);
@@ -441,3 +500,47 @@ a {
 a img {
   cursor: pointer;
 }
+
+audio {
+  width: 300px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.audio-controls {
+  position: absolute; /* Ensures the buttons are positioned relative to the body */
+  top: 530px; 
+  left: 42.8%; 
+  z-index: 1000; 
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-controls button {
+  background-color: rgb(237, 27, 118);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  transition-property: transform, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.audio-controls button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px black;
+}
+
+.audio-controls button:active{
+  transform: translate(0px);
+  background-color: white;
+  color: rgb(237, 27, 118);
+  box-shadow: 0 4px 8px black;
+}
+
